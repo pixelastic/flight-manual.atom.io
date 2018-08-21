@@ -1,0 +1,543 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Package: Modifying Text</title>
+
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" media="all" href="/assets/stylesheets/application.css" data-proofer-ignore>
+
+<link rel="stylesheet" media="all" href="/assets/stylesheets/development.css" data-proofer-ignore>
+
+
+
+<script type="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script type="text/javascript" src="/assets/javascripts/application.js"></script>
+
+
+  </head>
+  <body class="layout-article">
+    <div class="footer-push">
+      <div class="top-bar">
+  <div class="wrapper no-pad">
+
+    <ul class="navigation">
+      <li><h1 title="Atom: A hackable text editor for the 21st Century"><a href="https://atom.io/" class="logo-small"></a></h1></li>
+      <li><a href="https://atom.io/packages">Packages</a></li>
+      <li><a href="https://atom.io/themes">Themes</a></li>
+      <li><a href="https://atom.io/docs" class="is-selected">Documentation</a></li>
+      <li><a href="https://blog.atom.io">Blog</a></li>
+      <li><a href="https://discuss.atom.io">Discuss</a></li>
+    </ul>
+
+  </div>
+</div>
+
+      <div class="wrapper documents content-push wide">
+        <div class="documents-search">
+  <form accept-charset="UTF-8" action="/search" id="articles-search" method="get">
+    <input type="search" name="q" id="quicksearch-query" class="documents-search-input js-articles-quicksearch" placeholder="Search the Flight Manual" autocomplete="off">
+  </form>
+</div>
+
+<script>
+  docsearch({
+    apiKey: '3de069f81859549c4161e184d059124c',
+    indexName: 'atom_flight_manual',
+    inputSelector: '#quicksearch-query',
+    debug: true,
+  });
+</script>
+
+
+        <div class="toc">
+          
+
+
+  <h4>
+    <a href="/getting-started">Chapter 1: Getting Started</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/why-atom">Why Atom?</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/installing-atom">Installing Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/atom-basics">Atom Basics</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/using-atom">Chapter 2: Using Atom</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/atom-packages">Atom Packages</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/moving-in-atom">Moving in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/atom-selections">Atom Selections</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/editing-and-deleting-text">Editing and Deleting Text</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/find-and-replace">Find and Replace</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/snippets">Snippets</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/autocomplete">Autocomplete</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/folding">Folding</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/panes">Panes</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/pending-pane-items">Pending Pane Items</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/grammar">Grammar</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/version-control-in-atom">Version Control in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/github-package">GitHub package</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/writing-in-atom">Writing in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/basic-customization">Basic Customization</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/hacking-atom">Chapter 3: Hacking Atom</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/tools-of-the-trade">Tools of the Trade</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/the-init-file">The Init File</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/package-word-count">Package: Word Count</a>
+      </li>
+    
+      <li class="selected">
+        <a href="/hacking-atom/sections/package-modifying-text">Package: Modifying Text</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/package-active-editor-info">Package: Active Editor Info</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/creating-a-theme">Creating a Theme</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/creating-a-grammar">Creating a Grammar</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/creating-a-legacy-textmate-grammar">Creating a Legacy TextMate Grammar</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/publishing">Publishing</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/iconography">Iconography</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/debugging">Debugging</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/writing-specs">Writing specs</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/handling-uris">Handling URIs</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/cross-platform-compatibility">Cross-Platform Compatibility</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/converting-from-textmate">Converting from TextMate</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/hacking-on-atom-core">Hacking on Atom Core</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/contributing-to-official-atom-packages">Contributing to Official Atom Packages</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/behind-atom">Chapter 4: Behind Atom</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/configuration-api">Configuration API</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/keymaps-in-depth">Keymaps In-Depth</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/scoped-settings-scopes-and-scope-descriptors">Scoped Settings, Scopes and Scope Descriptors</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/serialization-in-atom">Serialization in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/developing-node-modules">Developing Node Modules</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/interacting-with-other-packages-via-services">Interacting With Other Packages Via Services</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/maintaining-your-packages">Maintaining Your Packages</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/how-atom-uses-chromium-snapshots">How Atom Uses Chromium Snapshots</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+
+
+  <h4>
+    <a href="/resources">Appendix A: Resources</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/resources/sections/glossary">Glossary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/shadow-dom">Appendix B: Shadow DOM</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/shadow-dom/sections/removing-shadow-dom-styles">Removing Shadow DOM styles</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/upgrading-to-1-0-apis">Appendix C: Upgrading to 1.0 APIs</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/upgrading-to-1-0-apis/sections/upgrading-your-package">Upgrading Your Package</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/upgrading-to-1-0-apis/sections/upgrading-your-ui-theme-or-package-selectors">Upgrading Your UI Theme Or Package Selectors</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/upgrading-to-1-0-apis/sections/upgrading-your-syntax-theme">Upgrading Your Syntax Theme</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/atom-server-side-apis">Appendix D: Atom server-side APIs</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/atom-server-side-apis/sections/atom-package-server-api">Atom package server API</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/atom-server-side-apis/sections/atom-update-server-api">Atom update server API</a>
+      </li>
+    
+  </ul>
+
+
+        </div>
+
+        
+        <h1 class="document-title">
+          <div id="platform-nav">
+  <span class="octicon octicon-device-desktop"></span>
+  <ul>
+    <li class="platform-mac">
+      <a href="#platform-mac" data-platform="mac">
+        mac
+      </a>
+    </li>
+    <li class="platform-windows">
+      <a href="#platform-windows" data-platform="windows">
+        windows
+      </a>
+    </li>
+    <li class="platform-linux">
+      <a href="#platform-linux" data-platform="linux">
+        linux
+      </a>
+    </li>
+  </ul>
+</div>
+
+          <a class="improve-link"
+              href="https://github.com/atom/flight-manual.atom.io/edit/master/content/hacking-atom/sections/package-modifying-text.md" data-proofer-ignore>
+            <span class="octicon octicon-pencil"></span> Improve this page
+          </a>
+        </h1>
+
+        <div class="markdown-body document-content">
+          
+          <h3>
+<a id="package-modifying-text" class="anchor" href="#package-modifying-text" aria-hidden="true"><span class="octicon octicon-link"></span></a>Package: Modifying Text</h3>
+
+<p>Now that we have our first package written, let's go through examples of other types of packages we can make. This section will guide you though creating a simple command that replaces the selected text with <a href="https://en.wikipedia.org/wiki/ASCII_art">ascii art</a>. When you run our new command with the word "cool" selected, it will be replaced with:</p>
+
+<pre><code>                                     o888
+    ooooooo     ooooooo     ooooooo   888
+  888     888 888     888 888     888 888
+  888         888     888 888     888 888
+    88ooo888    88ooo88     88ooo88  o888o
+
+</code></pre>
+
+<p>This should demonstrate how to do basic text manipulation in the current text buffer and how to deal with selections.</p>
+
+<p>The final package can be viewed at <a href="https://github.com/atom/ascii-art">https://github.com/atom/ascii-art</a>.</p>
+
+<h4>
+<a id="basic-text-insertion" class="anchor" href="#basic-text-insertion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Text Insertion</h4>
+
+<p>To begin, press <kbd class="platform-mac">Cmd+Shift+P</kbd><kbd class="platform-windows platform-linux">Ctrl+Shift+P</kbd> to bring up the <a href="https://github.com/atom/command-palette">Command Palette</a>. Type "generate package" and select the "Package Generator: Generate Package" command, just as we did in <a href="/hacking-atom/sections/package-word-count/#package-generator">the section on package generation</a>. Enter <code>ascii-art</code> as the name of the package.</p>
+
+<p>Now let's edit the package files to make our ASCII Art package do something interesting. Since this package doesn't need any UI, we can remove all view-related code so go ahead and delete <code>lib/ascii-art-view.js</code>, <code>spec/ascii-art-view-spec.js</code>, and <code>styles/</code>.</p>
+
+<p>Next, open up <code>lib/ascii-art.js</code> and remove all view code, so it looks like this:</p>
+
+<div class="highlight highlight-javascript"><pre class="highlight"><code><span class="kd">const</span> <span class="p">{</span><span class="nx">CompositeDisposable</span><span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'atom'</span><span class="p">)</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">subscriptions</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+
+  <span class="nx">activate</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">subscriptions</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">CompositeDisposable</span><span class="p">()</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">subscriptions</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="nx">atom</span><span class="p">.</span><span class="nx">commands</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">'atom-workspace'</span><span class="p">,</span>
+      <span class="p">{</span><span class="s1">'ascii-art:convert'</span><span class="p">:</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">convert</span><span class="p">()})</span>
+    <span class="p">)</span>
+  <span class="p">},</span>
+
+  <span class="nx">deactivate</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">subscriptions</span><span class="p">.</span><span class="nx">dispose</span><span class="p">()</span>
+  <span class="p">},</span>
+
+  <span class="nx">convert</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Convert text!'</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h5>
+<a id="create-a-command" class="anchor" href="#create-a-command" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create a Command</h5>
+
+<p>Now let's add a command. You should namespace your commands with the package name followed by a <code>:</code> and then the name of the command. As you can see in the code, we called our command <code>ascii-art:convert</code> and we will define it to call the <code>convert()</code> method when it's executed.</p>
+
+<p>So far, that will simply log to the console. Let's start by making it insert something into the text buffer.</p>
+
+<div class="highlight highlight-javascript"><pre class="highlight"><code><span class="nx">convert</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">editor</span> <span class="o">=</span> <span class="nx">atom</span><span class="p">.</span><span class="nx">workspace</span><span class="p">.</span><span class="nx">getActiveTextEditor</span><span class="p">()</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">editor</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">editor</span><span class="p">.</span><span class="nx">insertText</span><span class="p">(</span><span class="s1">'Hello, World!'</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>As in <a href="/hacking-atom/sections/package-word-count/#counting-the-words">Counting Words</a>, we're using <code>atom.workspace.getActiveTextEditor()</code> to get the object that represents the active text editor. If this <code>convert()</code> method is called when not focused on a text editor, nothing will happen.</p>
+
+<p>Next we insert a string into the current text editor with the <a href="https://atom.io/docs/api/latest/TextEditor#instance-insertText"><code>insertText()</code></a> method. This will insert the text wherever the cursor currently is in the current editor. If there are selections, it will replace all selections with the "Hello, World!" text.</p>
+
+<h5>
+<a id="reload-the-package" class="anchor" href="#reload-the-package" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reload the Package</h5>
+
+<p>Before we can trigger <code>ascii-art:convert</code>, we need to load the latest code for our package by reloading the window. Run the command "Window: Reload" from the Command Palette or by pressing <kbd class="platform-mac">Alt+Cmd+Ctrl+L</kbd><kbd class="platform-windows platform-linux">Ctrl+Shift+F5</kbd>.</p>
+
+<h5>
+<a id="trigger-the-command" class="anchor" href="#trigger-the-command" aria-hidden="true"><span class="octicon octicon-link"></span></a>Trigger the Command</h5>
+
+<p>Now open the Command Palette and search for the "Ascii Art: Convert" command. But it's not there! To fix this, open <code>package.json</code> and find the property called <code>activationCommands</code>. Activation commands make Atom launch faster by allowing Atom to delay a package's activation until it's needed. So remove the existing command and use <code>ascii-art:convert</code> in <code>activationCommands</code>:</p>
+
+<div class="highlight highlight-json"><pre class="highlight"><code><span class="s2">"activationCommands"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="s2">"atom-workspace"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ascii-art:convert"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+
+<p>First, reload the window by running the command "Window: Reload" from the command palette. Now when you run the "Ascii Art: Convert" command it will insert "Hello, World!" into the active editor, if any.</p>
+
+<h5>
+<a id="add-a-key-binding" class="anchor" href="#add-a-key-binding" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add a Key Binding</h5>
+
+<p>Now let's add a key binding to trigger the <code>ascii-art:convert</code> command. Open <code>keymaps/ascii-art.json</code> and add a key binding linking <kbd class="platform-all">Alt+Ctrl+A</kbd> to the <code>ascii-art:convert</code> command. You can delete the pre-existing key binding since you won't need it anymore.</p>
+
+<p>When finished, the file should look like this:</p>
+
+<div class="highlight highlight-javascript"><pre class="highlight"><code><span class="p">{</span>
+  <span class="s2">"atom-text-editor"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s2">"ctrl-alt-a"</span><span class="p">:</span> <span class="s2">"ascii-art:convert"</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+</code></pre></div>
+
+<p>Now reload the window and verify that the key binding works.</p>
+
+<div class="alert warning">
+
+<p><strong>Warning:</strong> The Atom keymap system is <em>case-sensitive</em>. This means that there is a distinction between <code>a</code> and <code>A</code> when creating keybindings. <code>a</code> means that you want to trigger the keybinding when you press <kbd class="platform-all">A</kbd>. But <code>A</code> means that you want to trigger the keybinding when you press <kbd class="platform-all">Shift+A</kbd>. You can also write <code>shift-a</code> when you want to trigger the keybinding when you press <kbd class="platform-all">Shift+A</kbd>.</p>
+
+<p>We <strong>strongly</strong> recommend always using lowercase and explicitly spelling out when you want to include <kbd class="platform-all">Shift</kbd> in your keybindings.</p>
+
+</div>
+
+<h4>
+<a id="add-the-ascii-art" class="anchor" href="#add-the-ascii-art" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add the ASCII Art</h4>
+
+<p>Now we need to convert the selected text to ASCII art. To do this we will use the <a href="https://npmjs.org/package/figlet">figlet</a> Node module from <a href="https://npmjs.org/">npm</a>. Open <code>package.json</code> and add the latest version of figlet to the dependencies:</p>
+
+<div class="highlight highlight-json"><pre class="highlight"><code><span class="s2">"dependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="s2">"figlet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0.8"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+
+<p>After saving the file, run the command "Update Package Dependencies: Update" from the Command Palette. This will install the package's node module dependencies, only figlet in this case. You will need to run "Update Package Dependencies: Update" whenever you update the dependencies field in your <code>package.json</code> file.</p>
+
+<p>If for some reason this doesn't work, you'll see a message saying "Failed to update package dependencies" and you will find a new <code>npm-debug.log</code> file in your directory. That file should give you some idea as to what went wrong.</p>
+
+<p>Now require the figlet node module in <code>lib/ascii-art.js</code> and instead of inserting "Hello, World!", convert the selected text to ASCII art.</p>
+
+<div class="highlight highlight-javascript"><pre class="highlight"><code><span class="nx">convert</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">editor</span> <span class="o">=</span> <span class="nx">atom</span><span class="p">.</span><span class="nx">workspace</span><span class="p">.</span><span class="nx">getActiveTextEditor</span><span class="p">()</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">editor</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">selection</span> <span class="o">=</span> <span class="nx">editor</span><span class="p">.</span><span class="nx">getSelectedText</span><span class="p">()</span>
+
+    <span class="kd">const</span> <span class="nx">figlet</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'figlet'</span><span class="p">)</span>
+    <span class="kd">const</span> <span class="nx">font</span> <span class="o">=</span> <span class="s1">'o8'</span>
+    <span class="nx">figlet</span><span class="p">(</span><span class="nx">selection</span><span class="p">,</span> <span class="p">{</span><span class="nx">font</span><span class="p">},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">art</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">error</span><span class="p">)</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="nx">editor</span><span class="p">.</span><span class="nx">insertText</span><span class="p">(</span><span class="s2">`\n</span><span class="p">${</span><span class="nx">art</span><span class="p">}</span><span class="s2">\n`</span><span class="p">)</span>
+      <span class="p">}</span>
+    <span class="p">})</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Now reload the editor, select some text in an editor window and press <kbd class="platform-all">Alt+Ctrl+A</kbd>. It should be replaced with a ridiculous ASCII art version instead.</p>
+
+<p>There are a couple of new things in this example we should look at quickly. The first is the <a href="https://atom.io/docs/api/latest/TextEditor#instance-getSelectedText"><code>editor.getSelectedText()</code></a> which, as you might guess, returns the text that is currently selected.</p>
+
+<p>We then call the Figlet code to convert that into something else and replace the current selection with it with the <a href="https://atom.io/docs/api/latest/TextEditor#instance-insertText"><code>editor.insertText()</code></a> call.</p>
+
+<h4>
+<a id="summary" class="anchor" href="#summary" aria-hidden="true"><span class="octicon octicon-link"></span></a>Summary</h4>
+
+<p>In this section, we've made a UI-less package that takes selected text and replaces it with a processed version. This could be helpful in creating linters or checkers for your code.</p>
+        </div>
+      </div>
+      <div class="footer-pad"></div>
+    </div>
+    <footer>
+  <div class="footer">
+    <div class="wrapper no-pad">
+      <ul class="footer-left">
+        <li><a href="https://atom.io/terms">Terms of Use</a></li>
+        <li><a href="https://help.github.com/articles/github-privacy-policy/">Privacy</a></li>
+        <li><a href="https://github.com/atom/atom/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+        <li><a href="https://atom.io/releases">Releases</a></li>
+        <li><a href="https://atom.io/faq">FAQ</a></li>
+        <li><a href="https://atom.io/contact">Contact</a></li>
+        <li><a href="https://github.com/atom/flight-manual.atom.io/blob/master/CONTRIBUTING.md">Contribute!</a></li>
+      </ul>
+
+      <div class="footer-right">
+        <a href="https://github.com"><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

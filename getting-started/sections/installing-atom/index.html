@@ -1,0 +1,626 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Installing Atom</title>
+
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" media="all" href="/assets/stylesheets/application.css" data-proofer-ignore>
+
+<link rel="stylesheet" media="all" href="/assets/stylesheets/development.css" data-proofer-ignore>
+
+
+
+<script type="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script type="text/javascript" src="/assets/javascripts/application.js"></script>
+
+
+  </head>
+  <body class="layout-article">
+    <div class="footer-push">
+      <div class="top-bar">
+  <div class="wrapper no-pad">
+
+    <ul class="navigation">
+      <li><h1 title="Atom: A hackable text editor for the 21st Century"><a href="https://atom.io/" class="logo-small"></a></h1></li>
+      <li><a href="https://atom.io/packages">Packages</a></li>
+      <li><a href="https://atom.io/themes">Themes</a></li>
+      <li><a href="https://atom.io/docs" class="is-selected">Documentation</a></li>
+      <li><a href="https://blog.atom.io">Blog</a></li>
+      <li><a href="https://discuss.atom.io">Discuss</a></li>
+    </ul>
+
+  </div>
+</div>
+
+      <div class="wrapper documents content-push wide">
+        <div class="documents-search">
+  <form accept-charset="UTF-8" action="/search" id="articles-search" method="get">
+    <input type="search" name="q" id="quicksearch-query" class="documents-search-input js-articles-quicksearch" placeholder="Search the Flight Manual" autocomplete="off">
+  </form>
+</div>
+
+<script>
+  docsearch({
+    apiKey: '3de069f81859549c4161e184d059124c',
+    indexName: 'atom_flight_manual',
+    inputSelector: '#quicksearch-query',
+    debug: true,
+  });
+</script>
+
+
+        <div class="toc">
+          
+
+
+  <h4>
+    <a href="/getting-started">Chapter 1: Getting Started</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/why-atom">Why Atom?</a>
+      </li>
+    
+      <li class="selected">
+        <a href="/getting-started/sections/installing-atom">Installing Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/atom-basics">Atom Basics</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/using-atom">Chapter 2: Using Atom</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/atom-packages">Atom Packages</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/moving-in-atom">Moving in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/atom-selections">Atom Selections</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/editing-and-deleting-text">Editing and Deleting Text</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/find-and-replace">Find and Replace</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/snippets">Snippets</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/autocomplete">Autocomplete</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/folding">Folding</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/panes">Panes</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/pending-pane-items">Pending Pane Items</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/grammar">Grammar</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/version-control-in-atom">Version Control in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/github-package">GitHub package</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/writing-in-atom">Writing in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/basic-customization">Basic Customization</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/hacking-atom">Chapter 3: Hacking Atom</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/tools-of-the-trade">Tools of the Trade</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/the-init-file">The Init File</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/package-word-count">Package: Word Count</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/package-modifying-text">Package: Modifying Text</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/package-active-editor-info">Package: Active Editor Info</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/creating-a-theme">Creating a Theme</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/creating-a-grammar">Creating a Grammar</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/creating-a-legacy-textmate-grammar">Creating a Legacy TextMate Grammar</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/publishing">Publishing</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/iconography">Iconography</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/debugging">Debugging</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/writing-specs">Writing specs</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/handling-uris">Handling URIs</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/cross-platform-compatibility">Cross-Platform Compatibility</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/converting-from-textmate">Converting from TextMate</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/hacking-on-atom-core">Hacking on Atom Core</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/contributing-to-official-atom-packages">Contributing to Official Atom Packages</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/behind-atom">Chapter 4: Behind Atom</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/configuration-api">Configuration API</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/keymaps-in-depth">Keymaps In-Depth</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/scoped-settings-scopes-and-scope-descriptors">Scoped Settings, Scopes and Scope Descriptors</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/serialization-in-atom">Serialization in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/developing-node-modules">Developing Node Modules</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/interacting-with-other-packages-via-services">Interacting With Other Packages Via Services</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/maintaining-your-packages">Maintaining Your Packages</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/how-atom-uses-chromium-snapshots">How Atom Uses Chromium Snapshots</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+
+
+  <h4>
+    <a href="/resources">Appendix A: Resources</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/resources/sections/glossary">Glossary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/shadow-dom">Appendix B: Shadow DOM</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/shadow-dom/sections/removing-shadow-dom-styles">Removing Shadow DOM styles</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/upgrading-to-1-0-apis">Appendix C: Upgrading to 1.0 APIs</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/upgrading-to-1-0-apis/sections/upgrading-your-package">Upgrading Your Package</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/upgrading-to-1-0-apis/sections/upgrading-your-ui-theme-or-package-selectors">Upgrading Your UI Theme Or Package Selectors</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/upgrading-to-1-0-apis/sections/upgrading-your-syntax-theme">Upgrading Your Syntax Theme</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/atom-server-side-apis">Appendix D: Atom server-side APIs</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/atom-server-side-apis/sections/atom-package-server-api">Atom package server API</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/atom-server-side-apis/sections/atom-update-server-api">Atom update server API</a>
+      </li>
+    
+  </ul>
+
+
+        </div>
+
+        
+        <h1 class="document-title">
+          <div id="platform-nav">
+  <span class="octicon octicon-device-desktop"></span>
+  <ul>
+    <li class="platform-mac">
+      <a href="#platform-mac" data-platform="mac">
+        mac
+      </a>
+    </li>
+    <li class="platform-windows">
+      <a href="#platform-windows" data-platform="windows">
+        windows
+      </a>
+    </li>
+    <li class="platform-linux">
+      <a href="#platform-linux" data-platform="linux">
+        linux
+      </a>
+    </li>
+  </ul>
+</div>
+
+          <a class="improve-link"
+              href="https://github.com/atom/flight-manual.atom.io/edit/master/content/getting-started/sections/installing-atom.md" data-proofer-ignore>
+            <span class="octicon octicon-pencil"></span> Improve this page
+          </a>
+        </h1>
+
+        <div class="markdown-body document-content">
+          
+          <h3>
+<a id="installing-atom" class="anchor" href="#installing-atom" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing Atom</h3>
+
+<p>To get started with Atom, we'll need to get it on your system. This section will go over installing Atom on your system as well as the basics of how to build it from source.</p>
+
+<p>Installing Atom should be fairly simple. Generally, you can go to <a href="https://atom.io">https://atom.io</a> and at the top of the page you should see a download button as shown here:</p>
+
+<div class="platform-mac">
+
+<p><img src="../../images/mac-downloads.png" alt="Download buttons on https://atom.io" title="Download buttons on https://atom.io"></p>
+
+</div>
+
+<div class="platform-windows">
+
+<p><img src="../../images/windows-downloads.png" alt="Download buttons on https://atom.io" title="Download buttons on https://atom.io"></p>
+
+</div>
+
+<div class="platform-linux">
+
+<p><img src="../../images/linux-downloads.png" alt="Download buttons on https://atom.io" title="Download buttons on https://atom.io"></p>
+
+</div>
+
+<p>The button or buttons should be specific to your platform and the download package should be easily installable. However, let's go over them here in a bit of detail.</p>
+
+<div class="platform-mac">
+
+<h4>
+<a id="installing-atom-on-mac" class="anchor" href="#installing-atom-on-mac" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing Atom on Mac</h4>
+
+<p>Atom follows the standard Mac zip installation process. You can either press the download button from the <a href="https://atom.io">https://atom.io</a> site or you can go to the <a href="https://github.com/atom/atom/releases/latest">Atom releases page</a> to download the <code>atom-mac.zip</code> file explicitly. Once you have that file, you can click on it to extract the application and then drag the new <code>Atom</code> application into your "Applications" folder.</p>
+
+<p>When you first open Atom, it will try to install the <code>atom</code> and <code>apm</code> commands for use in the terminal. In some cases, Atom might not be able to install these commands because it needs an administrator password. To check if Atom was able to install the <code>atom</code> command, for example, open a terminal window and type <code>which atom</code>. If the <code>atom</code> command has been installed, you'll see something like this:</p>
+
+<pre class="command-line">
+<span class="command">which atom</span>
+<span class="output">/usr/local/bin/atom</span>
+$
+</pre>
+
+<p>If the <code>atom</code> command wasn't installed, the <code>which</code> command won't return anything:</p>
+
+<pre class="command-line">
+<span class="command">which atom</span>
+$
+</pre>
+
+<p>To install the <code>atom</code> and <code>apm</code> commands, run "Window: Install Shell Commands" from the <a href="/getting-started/sections/atom-basics#command-palette">Command Palette</a>, which will prompt you for an administrator password.</p>
+
+</div>
+
+<div class="platform-windows">
+
+<h4>
+<a id="installing-atom-on-windows" class="anchor" href="#installing-atom-on-windows" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing Atom on Windows</h4>
+
+<p>Atom is available with a Windows installer that can be downloaded from <a href="https://atom.io">https://atom.io</a> or from the <a href="https://github.com/atom/atom/releases/latest">Atom releases page</a> named <code>AtomSetup.exe</code>. This setup program will install Atom, add the <code>atom</code> and <code>apm</code> commands to your <code>PATH</code>, and create shortcuts on the desktop and in the start menu.</p>
+
+<p><img src="../../images/windows-system-settings.png" alt="Atom on Windows"></p>
+
+<p>The context menu <code>Open with Atom</code> in File Explorer, and the option to make Atom available for file association using <code>Open with...</code>, is controlled by the System Settings panel as seen above.</p>
+
+<p>With Atom open, click on <code>File &gt; Settings</code>, and then the <code>System</code> tab on the left. Check the boxes next to <code>Show in file context menus</code>, as well as <code>Show in folder context menus</code>. And you’re all set.</p>
+
+</div>
+
+<div class="platform-linux">
+
+<h4>
+<a id="installing-atom-on-linux" class="anchor" href="#installing-atom-on-linux" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing Atom on Linux</h4>
+
+<p>You can install Atom on Linux using your distribution's package manager by configuring it to use one of our official package repositories. This will also enable you to update Atom when new releases are published.</p>
+
+<h5>
+<a id="debian-and-ubuntu-debapt" class="anchor" href="#debian-and-ubuntu-debapt" aria-hidden="true"><span class="octicon octicon-link"></span></a>Debian and Ubuntu (deb/apt)</h5>
+
+<p>To install Atom on Debian, Ubuntu, or related distributions, add our official<br>
+package repository to your system by running the following commands:</p>
+
+<pre class="command-line">
+<span class="command">curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -</span>
+<span class="command">sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" &gt; /etc/apt/sources.list.d/atom.list'</span>
+<span class="command">sudo apt-get update</span>
+</pre>
+
+<p>You can now install Atom using <code>apt-get</code> (or <code>apt</code> on Ubuntu):</p>
+
+<pre class="command-line">
+<span class="comment"># Install Atom</span>
+<span class="command">sudo apt-get install atom</span>
+<span class="comment"># Install Atom Beta</span>
+<span class="command">sudo apt-get install atom-beta</span>
+</pre>
+
+<p>Alternatively, you can download the <a href="https://atom.io/download/deb">Atom .deb package</a> and install it directly:</p>
+
+<pre class="command-line">
+<span class="comment"># Install Atom</span>
+<span class="command">sudo dpkg -i atom-amd64.deb</span>
+<span class="comment"># Install Atom's dependencies if they are missing</span>
+<span class="command">sudo apt-get -f install</span>
+</pre>
+
+<h5>
+<a id="red-hat-and-centos-yum-or-fedora-dnf" class="anchor" href="#red-hat-and-centos-yum-or-fedora-dnf" aria-hidden="true"><span class="octicon octicon-link"></span></a>Red Hat and CentOS (YUM), or Fedora (DNF)</h5>
+
+<p>To install Atom on CentOS, Oracle Linux, Red Hat Enterprise Linux, Scientific Linux, Fedora, or related distributions that use the YUM or DNF package managers, add our official package repository to your system by running the following commands:</p>
+
+<pre class="command-line">
+<span class="command">sudo rpm --import https://packagecloud.io/AtomEditor/atom/gpgkey</span>
+<span class="command">sudo sh -c 'echo -e "[Atom]\nname=Atom Editor\nbaseurl=https://packagecloud.io/AtomEditor/atom/el/7/\$basearch\nenabled=1\ngpgcheck=0\nrepo_gpgcheck=1\ngpgkey=https://packagecloud.io/AtomEditor/atom/gpgkey" &gt; /etc/yum.repos.d/atom.repo'</span>
+</pre>
+
+<p>You can now install Atom using <code>dnf</code> (or <code>yum</code> depending on your distribution):</p>
+
+<pre class="command-line">
+<span class="comment"># Install Atom</span>
+<span class="command">sudo dnf install atom</span>
+<span class="comment"># Install Atom Beta</span>
+<span class="command">sudo dnf install atom-beta</span>
+</pre>
+
+<p>Alternatively, you can download the <a href="https://atom.io/download/rpm">Atom .rpm package</a> and install it directly:</p>
+
+<pre class="command-line">
+<span class="comment"># On YUM-based distributions</span>
+<span class="command">sudo yum install -y atom.x86_64.rpm</span>
+<span class="comment"># On DNF-based distributions</span>
+<span class="command">sudo dnf install -y atom.x86_64.rpm</span>
+</pre>
+
+<h5>
+<a id="suse-zypp" class="anchor" href="#suse-zypp" aria-hidden="true"><span class="octicon octicon-link"></span></a>SUSE (zypp)</h5>
+
+<p>To install Atom on openSUSE or other distributions that use the Zypp package manager, add our official package repository to your system by running the following commands:</p>
+
+<pre class="command-line">
+<span class="command">sudo sh -c 'echo -e "[Atom]\nname=Atom Editor\nbaseurl=https://packagecloud.io/AtomEditor/atom/el/7/\$basearch\nenabled=1\ntype=rpm-md\ngpgcheck=0\nrepo_gpgcheck=1\ngpgkey=https://packagecloud.io/AtomEditor/atom/gpgkey" &gt; /etc/zypp/repos.d/atom.repo'</span>
+<span class="command">sudo zypper --gpg-auto-import-keys refresh</span>
+</pre>
+
+<p>You can now install Atom using <code>zypper</code>:</p>
+
+<pre class="command-line">
+<span class="comment"># Install Atom</span>
+<span class="command">sudo zypper install atom</span>
+<span class="comment"># Install Atom Beta</span>
+<span class="command">sudo zypper install atom-beta</span>
+</pre>
+
+<p>Alternatively, you can download the <a href="https://atom.io/download/rpm">Atom .rpm package</a> and install it directly:</p>
+
+<pre class="command-line">
+<span class="command">sudo zypper in -y atom.x86_64.rpm</span>
+</pre>
+
+</div>
+
+<h4>
+<a id="portable-mode" class="anchor" href="#portable-mode" aria-hidden="true"><span class="octicon octicon-link"></span></a>Portable Mode</h4>
+
+<p>Atom stores configuration and state in a <code>.atom</code> directory usually located in your home directory <span class="platform-windows">(<code>%userprofile%</code> on Windows)</span>. You can however run Atom in portable mode where both the app and the configuration are stored together such as on a removable storage device.</p>
+
+<p>To setup Atom in portable mode download the <a href="https://github.com/atom/atom/releases/latest">zip/tar.gz package for your system</a> and extract it to your removable storage.</p>
+
+<div class="platform-windows">
+
+<p>Then create a <code>.atom</code> directory alongside the directory that contains atom.exe, for example:</p>
+
+<pre><code>e:\atom-1.14\atom.exe
+e:\.atom
+</code></pre>
+
+</div>
+
+<div class="platform-mac">
+
+<p>Then create a <code>.atom</code> directory alongside the Atom.app application, for example:</p>
+
+<pre><code>/MyUSB/Atom.app
+/MyUSB/.atom
+</code></pre>
+
+</div>
+
+<div class="platform-linux">
+
+<p>Then create a <code>.atom</code> directory alongside the directory that contains the Atom binary, for example:</p>
+
+<pre><code>/media/myusb/atom-1.14/atom
+/media/myusb/.atom
+</code></pre>
+
+</div>
+
+<h5>
+<a id="portable-notes" class="anchor" href="#portable-notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Portable Notes</h5>
+
+<ul>
+<li>The <code>.atom</code> directory must be writeable</li>
+<li>You can move an existing <code>.atom</code> directory to your portable device</li>
+<li>Atom can also store its Electron user data in your <code>.atom</code> directory - just create a subdirectory called <code>electronUserData</code> inside <code>.atom</code>
+</li>
+<li>Alternatively you can set the <code>ATOM_HOME</code> environment variable to point wherever you want (you can write a .sh or .cmd script to temporarily set it and launch it from that)</li>
+<li>Portable mode installations will not automatically update</li>
+</ul>
+
+<h4>
+<a id="building-atom-from-source" class="anchor" href="#building-atom-from-source" aria-hidden="true"><span class="octicon octicon-link"></span></a>Building Atom from Source</h4>
+
+<p>The <a href="/hacking-atom/sections/hacking-on-atom-core/">Hacking on Atom Core</a> section of the flight manual covers instructions on how to clone and build the source code if you prefer that option.</p>
+
+<h4>
+<a id="proxy-and-firewall-settings" class="anchor" href="#proxy-and-firewall-settings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Proxy and Firewall Settings</h4>
+
+<h5>
+<a id="behind-a-firewall" class="anchor" href="#behind-a-firewall" aria-hidden="true"><span class="octicon octicon-link"></span></a>Behind a Firewall?</h5>
+
+<p>If you are behind a firewall and seeing SSL errors when installing packages you can disable strict SSL by running:</p>
+
+<pre class="command-line">
+<span class="command">apm config set strict-ssl false</span>
+</pre>
+
+<h5>
+<a id="using-a-proxy" class="anchor" href="#using-a-proxy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using a Proxy?</h5>
+
+<p>If you are using a HTTP(S) proxy you can configure <code>apm</code> to use it by running:</p>
+
+<pre class="command-line">
+<span class="command">apm config set https-proxy <em>YOUR_PROXY_ADDRESS</em></span>
+</pre>
+
+<p>You can run <code>apm config get https-proxy</code> to verify it has been set correctly.</p>
+        </div>
+      </div>
+      <div class="footer-pad"></div>
+    </div>
+    <footer>
+  <div class="footer">
+    <div class="wrapper no-pad">
+      <ul class="footer-left">
+        <li><a href="https://atom.io/terms">Terms of Use</a></li>
+        <li><a href="https://help.github.com/articles/github-privacy-policy/">Privacy</a></li>
+        <li><a href="https://github.com/atom/atom/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+        <li><a href="https://atom.io/releases">Releases</a></li>
+        <li><a href="https://atom.io/faq">FAQ</a></li>
+        <li><a href="https://atom.io/contact">Contact</a></li>
+        <li><a href="https://github.com/atom/flight-manual.atom.io/blob/master/CONTRIBUTING.md">Contribute!</a></li>
+      </ul>
+
+      <div class="footer-right">
+        <a href="https://github.com"><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

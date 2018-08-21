@@ -1,0 +1,473 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Handling URIs</title>
+
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" media="all" href="/assets/stylesheets/application.css" data-proofer-ignore>
+
+<link rel="stylesheet" media="all" href="/assets/stylesheets/development.css" data-proofer-ignore>
+
+
+
+<script type="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script type="text/javascript" src="/assets/javascripts/application.js"></script>
+
+
+  </head>
+  <body class="layout-article">
+    <div class="footer-push">
+      <div class="top-bar">
+  <div class="wrapper no-pad">
+
+    <ul class="navigation">
+      <li><h1 title="Atom: A hackable text editor for the 21st Century"><a href="https://atom.io/" class="logo-small"></a></h1></li>
+      <li><a href="https://atom.io/packages">Packages</a></li>
+      <li><a href="https://atom.io/themes">Themes</a></li>
+      <li><a href="https://atom.io/docs" class="is-selected">Documentation</a></li>
+      <li><a href="https://blog.atom.io">Blog</a></li>
+      <li><a href="https://discuss.atom.io">Discuss</a></li>
+    </ul>
+
+  </div>
+</div>
+
+      <div class="wrapper documents content-push wide">
+        <div class="documents-search">
+  <form accept-charset="UTF-8" action="/search" id="articles-search" method="get">
+    <input type="search" name="q" id="quicksearch-query" class="documents-search-input js-articles-quicksearch" placeholder="Search the Flight Manual" autocomplete="off">
+  </form>
+</div>
+
+<script>
+  docsearch({
+    apiKey: '3de069f81859549c4161e184d059124c',
+    indexName: 'atom_flight_manual',
+    inputSelector: '#quicksearch-query',
+    debug: true,
+  });
+</script>
+
+
+        <div class="toc">
+          
+
+
+  <h4>
+    <a href="/getting-started">Chapter 1: Getting Started</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/why-atom">Why Atom?</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/installing-atom">Installing Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/atom-basics">Atom Basics</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/getting-started/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/using-atom">Chapter 2: Using Atom</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/atom-packages">Atom Packages</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/moving-in-atom">Moving in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/atom-selections">Atom Selections</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/editing-and-deleting-text">Editing and Deleting Text</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/find-and-replace">Find and Replace</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/snippets">Snippets</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/autocomplete">Autocomplete</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/folding">Folding</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/panes">Panes</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/pending-pane-items">Pending Pane Items</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/grammar">Grammar</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/version-control-in-atom">Version Control in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/github-package">GitHub package</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/writing-in-atom">Writing in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/basic-customization">Basic Customization</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/using-atom/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/hacking-atom">Chapter 3: Hacking Atom</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/tools-of-the-trade">Tools of the Trade</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/the-init-file">The Init File</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/package-word-count">Package: Word Count</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/package-modifying-text">Package: Modifying Text</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/package-active-editor-info">Package: Active Editor Info</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/creating-a-theme">Creating a Theme</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/creating-a-grammar">Creating a Grammar</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/creating-a-legacy-textmate-grammar">Creating a Legacy TextMate Grammar</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/publishing">Publishing</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/iconography">Iconography</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/debugging">Debugging</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/writing-specs">Writing specs</a>
+      </li>
+    
+      <li class="selected">
+        <a href="/hacking-atom/sections/handling-uris">Handling URIs</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/cross-platform-compatibility">Cross-Platform Compatibility</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/converting-from-textmate">Converting from TextMate</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/hacking-on-atom-core">Hacking on Atom Core</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/contributing-to-official-atom-packages">Contributing to Official Atom Packages</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/hacking-atom/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/behind-atom">Chapter 4: Behind Atom</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/configuration-api">Configuration API</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/keymaps-in-depth">Keymaps In-Depth</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/scoped-settings-scopes-and-scope-descriptors">Scoped Settings, Scopes and Scope Descriptors</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/serialization-in-atom">Serialization in Atom</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/developing-node-modules">Developing Node Modules</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/interacting-with-other-packages-via-services">Interacting With Other Packages Via Services</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/maintaining-your-packages">Maintaining Your Packages</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/how-atom-uses-chromium-snapshots">How Atom Uses Chromium Snapshots</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/behind-atom/sections/summary">Summary</a>
+      </li>
+    
+  </ul>
+
+
+
+  <h4>
+    <a href="/resources">Appendix A: Resources</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/resources/sections/glossary">Glossary</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/shadow-dom">Appendix B: Shadow DOM</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/shadow-dom/sections/removing-shadow-dom-styles">Removing Shadow DOM styles</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/upgrading-to-1-0-apis">Appendix C: Upgrading to 1.0 APIs</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/upgrading-to-1-0-apis/sections/upgrading-your-package">Upgrading Your Package</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/upgrading-to-1-0-apis/sections/upgrading-your-ui-theme-or-package-selectors">Upgrading Your UI Theme Or Package Selectors</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/upgrading-to-1-0-apis/sections/upgrading-your-syntax-theme">Upgrading Your Syntax Theme</a>
+      </li>
+    
+  </ul>
+
+  <h4>
+    <a href="/atom-server-side-apis">Appendix D: Atom server-side APIs</a>
+  </h4>
+  <ul>
+    
+      <li class="unselected">
+        <a href="/atom-server-side-apis/sections/atom-package-server-api">Atom package server API</a>
+      </li>
+    
+      <li class="unselected">
+        <a href="/atom-server-side-apis/sections/atom-update-server-api">Atom update server API</a>
+      </li>
+    
+  </ul>
+
+
+        </div>
+
+        
+        <h1 class="document-title">
+          <div id="platform-nav">
+  <span class="octicon octicon-device-desktop"></span>
+  <ul>
+    <li class="platform-mac">
+      <a href="#platform-mac" data-platform="mac">
+        mac
+      </a>
+    </li>
+    <li class="platform-windows">
+      <a href="#platform-windows" data-platform="windows">
+        windows
+      </a>
+    </li>
+    <li class="platform-linux">
+      <a href="#platform-linux" data-platform="linux">
+        linux
+      </a>
+    </li>
+  </ul>
+</div>
+
+          <a class="improve-link"
+              href="https://github.com/atom/flight-manual.atom.io/edit/master/content/hacking-atom/sections/handling-uris.md" data-proofer-ignore>
+            <span class="octicon octicon-pencil"></span> Improve this page
+          </a>
+        </h1>
+
+        <div class="markdown-body document-content">
+          
+          <h3>
+<a id="handling-uris" class="anchor" href="#handling-uris" aria-hidden="true"><span class="octicon octicon-link"></span></a>Handling URIs</h3>
+
+<p>Beginning in Atom 1.23, packages have the ability to handle special URIs triggered from the system; for example, a package named <code>my-package</code> can register itself to handle any URI starting with <code>atom://my-package/</code>.</p>
+
+<div class="alert warning">
+
+<p><strong>Warning:</strong> Handling URIs triggered from other applications, like a web browser, is a powerful tool, but also one that can be jarring. You should shape your package's user experience to handle this well. In general, you should <strong>avoid taking direct action on behalf of a user</strong>. For example, a URI handler that immediately installs a package is too invasive, but a URI handler that shows the package's pane in the settings view is useful. A URI handler that begins to clone a repo is overly aggressive, but a URI handler that <em>prompts</em> the user to clone a repo is okay.</p>
+
+<p>Any package with a URI handler that we feel violates this guideline is subject to removal from the Atom package registry at our discretion.</p>
+
+</div>
+
+<h4>
+<a id="modifying-your-packagejson" class="anchor" href="#modifying-your-packagejson" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modifying your <code>package.json</code>
+</h4>
+
+<p>The first step to handling URIs from your package is to modify its <code>package.json</code> file. You should add a new key called <code>uriHandler</code>, and its value should be an object.</p>
+
+<p>The <code>uriHandler</code> object <em>must</em> contain a key called <code>method</code> with a string value that tells Atom which method in your package to call when a URI needs to be handled. The object can <em>optionally</em> include a key called <code>deferActivation</code> which can be set to the boolean <code>false</code> to prevent Atom from deferring activation of your package — see more below.</p>
+
+<p>For example, if we want our package <code>my-package</code> to handle URIs with a method on our package's main module called <code>handleURI</code>, we could add the following to our <code>package.json</code>:</p>
+
+<div class="highlight highlight-json"><pre class="highlight"><code><span class="s2">"uriHandler"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="s2">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"handleURI"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+
+<h4>
+<a id="modifying-your-main-module" class="anchor" href="#modifying-your-main-module" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modifying your Main Module</h4>
+
+<p>Now that we've told Atom that we want our package to handle URIs beginning with <code>atom://my-package/</code> via our <code>handleURI</code> method, we need to actually write this method. Atom passes two arguments to your URI handler method; the first one is the fully-parsed URI plus query string, <a href="https://nodejs.org/api/url.html#url_url_parse_urlstring_parsequerystring_slashesdenotehost">parsed with Node's <code>url.parse(uri, true)</code></a>. The second argument is the raw, string URI; this is normally not needed since the first argument gives you structured information about the URI.</p>
+
+<p>Here's a sample package, written in JavaScript, that handles URIs with the <code>package.json</code> configuration we saw above.</p>
+
+<div class="highlight highlight-js"><pre class="highlight"><code><span class="k">export</span> <span class="k">default</span> <span class="p">{</span>
+  <span class="nx">activate</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// normal activation code here</span>
+  <span class="p">},</span>
+
+  <span class="nx">handleURI</span> <span class="p">(</span><span class="nx">parsedUri</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">parsedUri</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>When Atom handles, for example, the URI <code>atom://my-package/my/test/url?value=42&amp;other=false</code>, the package would log out something like the following:</p>
+
+<div class="highlight highlight-js"><pre class="highlight"><code><span class="p">{</span>
+  <span class="nl">protocol</span><span class="p">:</span> <span class="s1">'atom:'</span><span class="p">,</span>
+  <span class="nx">slashes</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+  <span class="nx">auth</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+  <span class="nx">host</span><span class="p">:</span> <span class="s1">'my-package'</span><span class="p">,</span>
+  <span class="nx">port</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+  <span class="nx">hostname</span><span class="p">:</span> <span class="s1">'my-package'</span><span class="p">,</span>
+  <span class="nx">hash</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+  <span class="nx">search</span><span class="p">:</span> <span class="s1">'?value=true&amp;other=false'</span><span class="p">,</span>
+  <span class="nx">query</span><span class="p">:</span> <span class="p">{</span> <span class="nl">value</span><span class="p">:</span> <span class="s1">'42'</span><span class="p">,</span> <span class="nx">other</span><span class="p">:</span> <span class="s1">'false'</span> <span class="p">},</span>
+  <span class="nx">pathname</span><span class="p">:</span> <span class="s1">'/my/test/url'</span><span class="p">,</span>
+  <span class="nx">path</span><span class="p">:</span> <span class="s1">'/my/test/url?value=true&amp;other=false'</span><span class="p">,</span>
+  <span class="nx">href</span><span class="p">:</span> <span class="s1">'atom://my-package/my/test/url?value=true&amp;other=false'</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Notice that the query string arguments are available in the <code>query</code> property, but are strings — you'll have to convert to other native types yourself.</p>
+
+<h4>
+<a id="controlling-activation-deferral" class="anchor" href="#controlling-activation-deferral" aria-hidden="true"><span class="octicon octicon-link"></span></a>Controlling Activation Deferral</h4>
+
+<p>For performance reasons, adding a <code>uriHandler</code> entry to your package's <code>package.json</code> will enable <em>deferred activation</em>. This means that Atom will not activate your package until it has a URI for it to handle — it will then activate your package and then immediately call the URI handler method. If you want to disable the deferred activation, ensuring your package is activated upon startup, you can add <code>"deferActivation": false</code> to the URI handler config. For example,</p>
+
+<div class="highlight highlight-json"><pre class="highlight"><code><span class="s2">"uriHandler"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="s2">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"handleURI"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"deferActivation"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+
+<p>Before doing this, make sure your package actually needs to be activated immediately — disabling deferred activation means Atom takes longer to start since it has to activate all packages without deferred activation.</p>
+
+<h4>
+<a id="linux-support" class="anchor" href="#linux-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Linux Support</h4>
+
+<p>Because URI handling is different across operating systems and distributions, there is no built-in URI handler support for Atom on Linux. If you want to configure URI handling on your system yourself, then you should configure <code>atom:</code> protocol URI's to trigger atom with the <code>--uri-handler</code> flag; for example, the URI <code>atom://test/uri</code> should launch Atom via <code>atom --uri-handler atom://test/uri</code>.</p>
+        </div>
+      </div>
+      <div class="footer-pad"></div>
+    </div>
+    <footer>
+  <div class="footer">
+    <div class="wrapper no-pad">
+      <ul class="footer-left">
+        <li><a href="https://atom.io/terms">Terms of Use</a></li>
+        <li><a href="https://help.github.com/articles/github-privacy-policy/">Privacy</a></li>
+        <li><a href="https://github.com/atom/atom/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+        <li><a href="https://atom.io/releases">Releases</a></li>
+        <li><a href="https://atom.io/faq">FAQ</a></li>
+        <li><a href="https://atom.io/contact">Contact</a></li>
+        <li><a href="https://github.com/atom/flight-manual.atom.io/blob/master/CONTRIBUTING.md">Contribute!</a></li>
+      </ul>
+
+      <div class="footer-right">
+        <a href="https://github.com"><span class="octicon octicon-code"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
