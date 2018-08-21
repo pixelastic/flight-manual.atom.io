@@ -21,22 +21,9 @@ compile '**/*.md' do
   layout '/article.html'
 end
 
-compile '/search.html' do
-  filter :erb
-  layout '/toc.html'
-end
-
-compile '/search.json' do
-  filter :erb
-end
-
 passthrough '/**/*.png'
 passthrough '/**/*.gif'
 passthrough '/CNAME'
-
-route '/search.json' do
-  '/search.json'
-end
 
 route '**/*' do
   if item.binary?

@@ -7,21 +7,7 @@
 <link rel="stylesheet" media="all" href="/assets/stylesheets/development.css" data-proofer-ignore>
 <% end %>
 
+
+<script type="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
 <script type="text/javascript" src="/assets/javascripts/application.js"></script>
 
-<script type="text/javascript">
-  $(function() {
-    $('#quicksearch-query').lunrSearch({
-
-      indexUrl: '/search.json',
-
-      quickSearchResults:  '.autocomplete-results',
-      quickSearchEntries:  '.result-group',
-      quickSearchTemplate: '#quicksearch-results-template',
-
-      searchResults: '.search-container',
-      searchEntries: '.search-results',
-      searchTemplate: '#search-results-template'
-    })
-  })
-</script>

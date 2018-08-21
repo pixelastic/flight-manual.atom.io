@@ -29,14 +29,10 @@
     "gulp-babel": "^6.1.2"
   },
   "standard": {
-    "ignore": [
-      "javascripts/search_worker.js"
-    ],
     "parser": "babel-eslint",
     "globals": [
       "$",
       "importScripts",
-      "lunr",
       "Worker"
     ]
   }

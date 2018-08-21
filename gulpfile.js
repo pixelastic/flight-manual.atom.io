@@ -34,7 +34,7 @@ gulp.task("javascript_vendor", function () {
   return gulp.src([
     "assets/vendor/jquery/dist/jquery.js",
     "assets/vendor/mustache/mustache.js",
-    "assets/vendor/lunr.js/lunr.js"
+    "assets/vendor/docsearch.js/docsearch.min.js"
     ])
     .pipe(concat("vendor.js"))
     .pipe(gulp.dest("tmp/"));
@@ -52,15 +52,7 @@ gulp.task("javascript_babel", function () {
     .pipe(gulp.dest("tmp/"));
 });
 
-gulp.task("javascript_workers", function () {
-  return gulp.src([
-    "assets/javascripts/workers/*.js",
-    "assets/vendor/lunr.js/lunr.min.js"
-    ])
-    .pipe(gulp.dest("output/assets/javascripts/"));
-});
-
-gulp.task("javascript", ["javascript_vendor", "javascript_babel", "javascript_workers"], function () {
+gulp.task("javascript", ["javascript_vendor", "javascript_babel"], function () {
   return gulp.src(["./tmp/vendor.js", "./tmp/babel.js"])
     .pipe(concat("application.js"))
     .pipe(gulpif(IS_PRODUCTION, uglify()))
