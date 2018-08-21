@@ -7,25 +7,13 @@
 <link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" media="all" href="/assets/stylesheets/application.css" data-proofer-ignore>
 
+<link rel="stylesheet" media="all" href="/assets/stylesheets/development.css" data-proofer-ignore>
 
+
+
+<script type="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
 <script type="text/javascript" src="/assets/javascripts/application.js"></script>
 
-<script type="text/javascript">
-  $(function() {
-    $('#quicksearch-query').lunrSearch({
-
-      indexUrl: '/search.json',
-
-      quickSearchResults:  '.autocomplete-results',
-      quickSearchEntries:  '.result-group',
-      quickSearchTemplate: '#quicksearch-results-template',
-
-      searchResults: '.search-container',
-      searchEntries: '.search-results',
-      searchTemplate: '#search-results-template'
-    })
-  })
-</script>
 
   </head>
   <body class="layout-toc">
@@ -46,36 +34,20 @@
 </div>
 
       <div class="wrapper documents content-push">
-        <script id="quicksearch-results-template" type="text/mustache">
-  [[#entries]]
-    <a href="[[url]]" class="js-articles-quicksearch-link">[[title]]</a>
-  [[/entries]]
-  <a class="initial quicksearch-seemore" href="/search?q=">See more results</a>
-</script>
-
-<script id="search-results-template" type="text/mustache">
-  [[#entries]]
-    <li>
-      <h3>
-        <a href="[[url]]">[[title]]</a>
-        <div class="label"><a href="[[category_url]]">[[category]]</a></div>
-      </h3>
-      <p>
-      [[excerpt]]
-      </p>
-    </li>
-  [[/entries]]
-</script>
-
-<div class="documents-search">
-  <form accept-charset="UTF-8" action="/search" id="articles-search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+        <div class="documents-search">
+  <form accept-charset="UTF-8" action="/search" id="articles-search" method="get">
     <input type="search" name="q" id="quicksearch-query" class="documents-search-input js-articles-quicksearch" placeholder="Search the Flight Manual" autocomplete="off">
   </form>
 </div>
 
-<div class="autocomplete-results" style="display: none;">
-  <div class="result-group"></div>
-</div>
+<script>
+  docsearch({
+    apiKey: '3de069f81859549c4161e184d059124c',
+    indexName: 'atom_flight_manual',
+    inputSelector: '#quicksearch-query',
+    debug: true,
+  });
+</script>
 
         <div class="markdown-body">
           <h1>Atom Flight Manual</h1>
