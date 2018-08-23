@@ -3515,6 +3515,10 @@ hr {
 .algolia-autocomplete {
   width: 100%; }
 
+/* Input */
+.algolia-autocomplete .ds-input {
+  -webkit-appearance: none; }
+
 /* Dropdown menu */
 .algolia-autocomplete .ds-dropdown-menu {
   max-width: none;
